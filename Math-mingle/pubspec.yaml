@@ -1,0 +1,72 @@
+#name: math
+#description: "A new Flutter project."
+#publish_to: 'none'
+#version: 0.1.0
+#
+#environment:
+#  sdk: '>=3.4.0 <4.0.0'
+#
+#dependencies:
+#  flutter:
+#    sdk: flutter
+#  provider: ^6.1.2
+#  flip_card: ^0.6.0
+#  firebase_core: ^3.3.0
+#  cloud_firestore: ^5.2.1
+#  http: ^1.2.2
+#  audioplayers: ^6.0.1
+#
+#
+#dev_dependencies:
+#  flutter_test:
+#    sdk: flutter
+#  flutter_lints: ^4.0.0
+#
+#flutter:
+#  uses-material-design: true
+#  assets:
+#    - assets/
+#    - assets/audio/
+#    - assets/homescreen/
+#    - assets/matchGame/chapter1.json
+#    - assets/matchGame/chapter2.json
+#    - assets/matchGame/chapter3.json
+#    - assets/matchGame/chapter4.json
+#    - assets/matchGame/chapter5.json
+
+name: math
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  flip_card: ^0.6.0
+  firebase_core: ^3.8.1  # Update firebase_core to the latest compatible version
+  cloud_firestore: ^5.2.1 # Firestore for database usage
+  http: ^1.2.2
+  audioplayers: ^6.0.1
+  firebase_analytics: ^11.3.0  # Update Firebase Analytics for compatibility
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/audio/
+    - assets/homescreen/
+    - assets/matchGame/chapter1.json
+    - assets/matchGame/chapter2.json
+    - assets/matchGame/chapter3.json
+    - assets/matchGame/chapter4.json
+    - assets/matchGame/chapter5.json
+
