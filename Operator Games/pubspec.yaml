@@ -36,6 +36,11 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   translator: ^1.0.0
+  flip_card: ^0.7.0
+  number_to_words_english: ^2.0.2
+  number_to_words: ^1.0.0
+  animated_text_kit: ^4.2.2
+  spelling_number: ^0.0.4
   flutter_localizations:
     sdk: flutter
 
@@ -45,14 +50,14 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flip_card: ^0.7.0
-  number_to_words_english: ^2.0.2
-  number_to_words: ^1.0.0
-  animated_text_kit: ^4.2.2
-  spelling_number: ^0.0.4
-  flutter_svg: ^2.0.9
-  flutter_tts: ^3.0.0
-  translator: ^1.0.0
+  # flip_card: ^0.7.0
+  # number_to_words_english: ^2.0.2
+  # number_to_words: ^1.0.0
+  # animated_text_kit: ^4.2.2
+  # spelling_number: ^0.0.4
+  # flutter_svg: ^2.0.9
+  # flutter_tts: ^3.0.0
+  # translator: ^1.0.0
   #  tts: ^1.0.2
   http: ^1.2.0
 
