@@ -1,0 +1,49 @@
+name: counting_and_sequencing
+description: "Counting and Sequencing Bilingual Math Project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.1.0
+  flutter_svg: ^2.0.10+1
+  video_player: ^2.9.1
+  provider: ^6.1.2
+  just_audio: ^0.9.40
+  flutter_tts: ^4.0.2
+  flutter_animate: ^4.5.2
+  firebase_auth: ^5.5.1
+  firebase_core: ^3.12.1
+  firebase_analytics: ^11.4.4
+  shared_preferences: ^2.5.3
+  cloud_firestore: ^5.6.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/p5.gif
+    - assets/grapes.png
+    - assets/greenAnt.png
+    - assets/oranges.png
+    - assets/p3.gif
+    - assets/p9.gif
+    - assets/audio/game-music-loop.mp3
+    - assets/audio/game-correct.mp3
+    - assets/audio/game-wrong.mp3
+    - assets/shell.svg
+    - assets/seahorse.svg
+    - assets/videos/background.mp4
+    - assets/shark.svg
+    - assets/mermaid.svg
+    - assets/audio/ocea.mp3
+    - assets/seahorse-2.png
+    - assets/jelly.png
