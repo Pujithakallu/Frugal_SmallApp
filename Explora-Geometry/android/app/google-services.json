@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "567011668150",
+    "project_id": "explora-geometry---bmapp",
+    "storage_bucket": "explora-geometry---bmapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567011668150:android:53f631fa96504db95af617",
+        "android_client_info": {
+          "package_name": "com.example.bilingual_math_geometry"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3TRKWB86eO4WUbUzFCHWK4P3Q2FJ3NRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

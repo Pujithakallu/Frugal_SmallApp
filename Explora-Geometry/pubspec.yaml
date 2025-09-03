@@ -1,0 +1,240 @@
+name: bilingual_math_geometry
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_tts: ^3.2.0
+  firebase_core: ^2.0.0
+  firebase_analytics: ^10.0.0
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+  simple_animations: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  #flutter_tts: ^3.2.0
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/backgroundd.gif
+    - assets/images/practice.gif
+    - assets/images/practice-dark.gif
+    - assets/images/party-pop.gif
+    - assets/images/full-marks.gif
+    - assets/images/quadrilateral/parallelogram.png
+    - assets/images/quadrilateral/rectangle.png
+    - assets/images/quadrilateral/square.png
+    - assets/images/quadrilateral/quadrilateral_image.png
+    - assets/images/plane/inclined_plane.png
+    - assets/images/plane/plane_image.png
+    - assets/images/plane/verticle_plane.png
+    - assets/images/plane/horizontal_plane.png
+    - assets/images/plane/plane.png
+    - assets/images/lines/lines.png
+    - assets/images/lines/lines_copy.png
+    - assets/images/lines/line_ans.png
+    - assets/images/lines/ray.png
+    - assets/images/lines/segment.png
+    - assets/images/angles/angles.png
+    - assets/images/angles/right.png
+    - assets/images/angles/acute.png
+    - assets/images/angles/obtuse.png
+    - assets/images/lines/line_all_new.png
+    - assets/images/lines/ray_learn.png
+    - assets/images/lines/segment_learn.png
+    - assets/images/lines/parallel_lines.png
+    - assets/images/lines/perpendicular_lines.png
+    - assets/images/lines/line.png
+    - assets/images/lines/intersecting_lines.png
+    - assets/images/lines/line_all_spanish.png
+    - assets/images/lines/intersecting_lines_spanish.png
+    - assets/images/lines/line_spanish.png
+    - assets/images/lines/parallel_lines_spanish.png
+    - assets/images/lines/perpendiculat_lines_spanish.png
+    - assets/images/lines/ray_spanish.png
+    - assets/images/lines/segment_spanish.png
+    - assets/images/lines/P7.png
+    - assets/images/lines/P8.png
+    - assets/images/lines/P10.png
+    - assets/images/angles/Acute_E.png
+    - assets/images/angles/AcuteAngle_s.png
+    - assets/images/angles/Angles_E.png
+    - assets/images/angles/Angles_S.png
+    - assets/images/angles/FullRotationAngle_E.png
+    - assets/images/angles/FullRotationAngle_s.png
+    - assets/images/angles/ObtuseANgle_E.png
+    - assets/images/angles/ObtuseAngle_S.png
+    - assets/images/angles/ReflexAngle_E.png
+    - assets/images/angles/ReflexAngle_S.png
+    - assets/images/angles/Right_Angle_E.png
+    - assets/images/angles/RightAngle_S.png
+    - assets/images/angles/StraightAngle_E.png
+    - assets/images/angles/StraightAngle_S.png
+    - assets/images/quadrilateral/Kite_E.png
+    - assets/images/quadrilateral/Kite_S.png
+    - assets/images/quadrilateral/Parallelogram_E.png
+    - assets/images/quadrilateral/Parallelogram_S.png
+    - assets/images/quadrilateral/Quadrilateral_E.png
+    - assets/images/quadrilateral/Quadrilateral_S.png
+    - assets/images/quadrilateral/Rectangle_E.png
+    - assets/images/quadrilateral/Rectangle_S.png
+    - assets/images/quadrilateral/Rhombus_E.png
+    - assets/images/quadrilateral/Rhombus_S.png
+    - assets/images/quadrilateral/Square_E.png
+    - assets/images/quadrilateral/Square_S.png
+    - assets/images/quadrilateral/Trapezoid_E.png
+    - assets/images/quadrilateral/Trapezoid_S.png
+    - assets/images/triangle/Acute_E.png
+    - assets/images/triangle/Acute_S.png
+    - assets/images/triangle/Equilateral_E.png
+    - assets/images/triangle/Equilateral_S.png
+    - assets/images/triangle/Isoceles_E.png
+    - assets/images/triangle/Isoceles_S.png
+    - assets/images/triangle/Obtuse_E.png
+    - assets/images/triangle/Obtuse_S.png
+    - assets/images/triangle/Right_E.png
+    - assets/images/triangle/Right_S.png
+    - assets/images/triangle/Scalene_E.png
+    - assets/images/triangle/Scalene_S.png
+    - assets/images/triangle/Triangle_E.png
+    - assets/images/triangle/Triangle_S.png
+    - assets/images/plane/Horizontal_E.png
+    - assets/images/plane/Horizontal_S.png
+    - assets/images/plane/Inclined_E.png
+    - assets/images/plane/Plane_E.png
+    - assets/images/plane/Inclined_S.png
+    - assets/images/plane/Plane_S.png
+    - assets/images/plane/Vertical_E.png
+    - assets/images/plane/Vertical_S.png
+    - assets/images/angles/A_Acute.png
+    - assets/images/angles/A_Obtuse.png
+    - assets/images/angles/A_Right.png
+    - assets/images/angles/3.png
+    - assets/images/angles/Reflex_Angle.png
+    - assets/images/angles/4.png
+    - assets/images/angles/quiz/aq1.jpg
+    - assets/images/angles/quiz/aq2.png
+    - assets/images/angles/quiz/aq3.jpg
+    - assets/images/angles/quiz/aq4.jpeg
+    - assets/images/angles/quiz/aq5.webp
+    - assets/images/angles/quiz/aq6.jpg
+    - assets/images/angles/quiz/aq7.jpg
+    - assets/images/angles/quiz/aq8.jpg
+    - assets/images/angles/quiz/aq9.jpg
+    - assets/images/angles/quiz/aq10.webp
+    - assets/images/lines/quiz/lq1.webp
+    - assets/images/lines/quiz/lq2.jpg
+    - assets/images/lines/quiz/lq3.jpg
+    - assets/images/lines/quiz/lq4.jpg
+    - assets/images/lines/quiz/lq5.jpg
+    - assets/images/lines/quiz/lq6.jpg
+    - assets/images/lines/quiz/lq7.webp
+    - assets/images/lines/quiz/lq8.jpg
+    - assets/images/lines/quiz/lq9.jpg
+    - assets/images/lines/quiz/lq10.jpg
+    - assets/images/plane/quiz/pq1.jpg
+    - assets/images/plane/quiz/pq2.jpg
+    - assets/images/plane/quiz/pq3.jpg
+    - assets/images/plane/quiz/pq4.jpg
+    - assets/images/plane/quiz/pq5.jpg
+    - assets/images/plane/quiz/pq6.jpg
+    - assets/images/plane/quiz/pq7.jpg
+    - assets/images/plane/quiz/pq8.jpg
+    - assets/images/plane/quiz/pq9.webp
+    - assets/images/plane/quiz/pq10.jpg
+    - assets/images/quadrilateral/quiz/qq1.jpg
+    - assets/images/quadrilateral/quiz/qq2.jpg
+    - assets/images/quadrilateral/quiz/qq3.jpg
+    - assets/images/quadrilateral/quiz/qq4.webp
+    - assets/images/quadrilateral/quiz/qq5.jpg
+    - assets/images/quadrilateral/quiz/qq6.jpg
+    - assets/images/quadrilateral/quiz/qq7.png
+    - assets/images/quadrilateral/quiz/qq8.png
+    - assets/images/quadrilateral/quiz/qq9.png
+    - assets/images/quadrilateral/quiz/qq10.png
+    - assets/images/triangle/quiz/tq1.webp
+    - assets/images/triangle/quiz/tq2.webp
+    - assets/images/triangle/quiz/tq3.jpg
+    - assets/images/triangle/quiz/tq4.jpg
+    - assets/images/triangle/quiz/q5.png
+    - assets/images/triangle/quiz/q7.png
+    - assets/images/triangle/quiz/q8.png
+    - assets/images/triangle/quiz/q9.png
+    - assets/images/triangle/quiz/q10.png
+    - assets/images/circle/circle_e.png
+    - assets/images/circle/circle_s.png
+    - assets/images/circle/Raduis_s.png
+    - assets/images/circle/Raduis_e.png
+    - assets/images/circle/Diameter_s.png
+    - assets/images/circle/Diameter_e.png
+    - assets/images/circle/Circumference_s.png
+    - assets/images/circle/Circumference_e.png
+    - assets/images/circle/Chord_s.png
+    - assets/images/circle/Chord_e.png
+    - assets/images/circle/Arc_s.png
+    - assets/images/circle/Arc_e.png
+    - assets/images/circle/Tangent_s.png
+    - assets/images/circle/Tangent_e.png
+    - assets/images/circle/Practice1.png
+    - assets/images/circle/Practice2.png
+    - assets/images/circle/Practice3.png
+    - assets/images/circle/Practice4.png
+    - assets/images/circle/Practice5.png
+    - assets/images/circle/Practice6.png
+    - assets/images/circle/q1.png
+    - assets/images/circle/q2.png
+    - assets/images/circle/q3.png
+    - assets/images/circle/q4.png
+    - assets/images/circle/q5.png
+    - assets/images/circle/q6.png
+    - assets/images/circle/q7.png
+    - assets/images/circle/q8.png
+    - assets/images/circle/q9.png
+    - assets/images/circle/q10.png
+    - assets/images/backgroundd-dark.gif
+
+
+
+
